@@ -1,0 +1,90 @@
+/* SELETORES CSS */
+
+ /* ID - Digamos que seja como seu CPF ou RG, uso único para apenas 1 pessoa */
+/* CLASS - Digamos que esse seria como uma familia, ao usar voce meio que cria um grupo onde 
+todos vão ter propriedades e valores iguais. */
+/* * - É o seletor universal. Ele aplica estilos a todos os elementos da página. */
+/* TAG - Seletor que seleciona por TAG html ( p, h1, body) */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor do fundo da Page */
+    text-align: center;
+}
+
+.container-maior {
+    display: flex;
+    position: relative;
+    top: 9rem;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#item-1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 150px;
+
+        h2{
+            color: #1f1d1d;
+        }  
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+}
+#item-2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 150px;
+
+        h2{
+            color: #1f1d1d;
+        }  
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+}
+#item-3 {
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 150px;
+
+        h2{
+            color: #1f1d1d;
+        }  
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+}
+
+.item:hover {
+    background-color: rgb(165, 171, 166) !important;
+}
+
+.produto{
+    width: 130px;
+    height: 140px;
+}
